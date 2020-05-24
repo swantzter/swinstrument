@@ -1,0 +1,20 @@
+{
+  "background_color": "#5f9242",
+  "description": "Swish - the musical instrument",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/img/round-192.png",
+      "sizes": "192x192",
+      "type": "img/png"
+    },
+    {
+      "src": "/img/round.png",
+      "sizes": "512x512",
+      "type": "img/png"
+    }
+  ],
+  "name": "Swish Instrument",
+  "short_name": "Swinstrument",
+  "start_url": "/"
+}
