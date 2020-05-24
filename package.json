@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && workbox generateSW workbox-config.js && cp manifest.json dist/"
+    "build": "vite build && workbox generateSW workbox-config.js && cp manifest.json dist/ && cp -R img dist/"
   },
   "dependencies": {
     "tone": "^14.7.2",
