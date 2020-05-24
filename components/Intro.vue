@@ -10,7 +10,7 @@
       The source code is available on GitHub:
       <a href="https://github.com/svbeon/swinstrument" target="_blank" rel="noopener">svbeon/swinstrument</a>.
       You probably don't want to look at the source though - I haven't used the appropriate tools for the task,
-      I just wanted to try <a href="https://github.com/vitejs/vite" target="_blank" rel="noopener">vue/vite</a>
+      I just wanted to try <a href="https://github.com/vitejs/vite" target="_blank" rel="noopener">vitejs/vite</a>
     </p>
     <br />
     <img src="/img/source.png" alt="Logo" />
@@ -27,11 +27,12 @@ main, footer {
 }
 
 main {
-  color: #18191b;
   max-height: 50vh;
   overflow-y: auto;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: .8rem;
 }
 
 footer {
@@ -58,10 +59,6 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-  main {
-    color: #fff;
-  }
-
   footer {
     color: #ccc;
   }
