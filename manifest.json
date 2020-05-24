@@ -1,7 +1,9 @@
 {
   "background_color": "#5f9242",
+  "theme_color": "#5f9242",
   "description": "Swish - the musical instrument",
-  "display": "fullscreen",
+  "display": "standalone",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/img/round-192.png",
