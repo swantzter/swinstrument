@@ -1,9 +1,16 @@
 {
   "name": "swish-piano",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A replica of the \"instrument\" you can play when you have completed a payment with the Swedish payment app Swish",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svbeon/swinstrument"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build && workbox generateSW workbox-config.js"
   },
   "dependencies": {
     "tone": "^14.7.2",
@@ -11,7 +18,7 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-beta.14",
-    "rollup-plugin-workbox": "^5.0.1",
-    "vite": "^0.16.6"
+    "vite": "^0.16.6",
+    "workbox-cli": "^5.1.3"
   }
 }
