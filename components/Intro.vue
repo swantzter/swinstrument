@@ -8,7 +8,7 @@
     </p>
     <p>
       The source code is available on GitHub:
-      <a href="https://github.com/svbeon/swinstrument" target="_blank" rel="noopener">svbeon/swinstrument</a>.
+      <a href="https://github.com/swantzter/swinstrument" target="_blank" rel="noopener">swantzter/swinstrument</a>.
       You probably don't want to look at the source though - I haven't used the appropriate tools for the task,
       I just wanted to try <a href="https://github.com/vitejs/vite" target="_blank" rel="noopener">vitejs/vite</a>
     </p>
